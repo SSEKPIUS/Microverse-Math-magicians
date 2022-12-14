@@ -1,4 +1,6 @@
 import React from 'react';
+// import calculate from '../logic/calculate';
+import Result from './result';
 
 class calculator extends React.Component {
   constructor(props) {
@@ -8,7 +10,7 @@ class calculator extends React.Component {
   render() {
     return (
       <div className="calc grid-container">
-        <div className="item1 top">0</div>
+        <Result className="item1 top" />
 
         <div className="item2">AC</div>
         <div className="item3">+/-</div>
