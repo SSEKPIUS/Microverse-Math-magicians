@@ -3,34 +3,12 @@ React, virtual DOM, how React uses the virtual DOM. Git/GitHub flow, webpack, li
 
 <a name="readme-top"> </a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
   <img src="logo.png" alt="logo" width="140"  height="auto"/>
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Math Magicians</b></h3>
 
 </div>
 
@@ -62,19 +40,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Description.
 
-**[your_project__name]** is a...
+**[Math Magicians]** This is the first project of the Math Magicians application. You will set up the environment and tools needed to develop a React application. In the following projects, you will develop the actual application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > LAMP Stack (Linux, Apache, MySQL, PHP)
-
-> MEAN Stack (MongoDB, Express.js, Angular.js, Node.js)
-
-> MERN Stack (MongoDB, Express.js, React.js, Node.js)
 
 <details>
   <summary>Client</summary>
@@ -101,11 +75,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[calculator]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,9 +85,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> A link to our deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://ssekpius.github.io/Microverse-Math-magicians/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +109,7 @@ Clone this repository to your desired folder:
 ```sh
   mkdir my-folder
   cd my-folder
-  git clone git@github.com:SSEKPIUS/Microverse-React-Template--quick.git 
+  git clone git@github.com:SSEKPIUS/Microverse-Math-magicians.git
 ```
 
 ### Install
@@ -185,7 +157,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> The collaborators of this project.
 
 👤 **Author 1**
 
@@ -204,11 +176,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features we will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[scientific calculator]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
