@@ -24,12 +24,14 @@
   padding: 20px;
   font-size: 30px;
   width: 2.5em;
+  color: black;
 }
 
 .calc.grid-container .top {
   background-color: #6f7275;
   text-align: right;
   width: auto !important;
+  color: white !important;
 }
 
 .calc.grid-container .right {
