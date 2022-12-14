@@ -1,40 +1,46 @@
 import React from 'react';
-// import calculate from '../logic/calculate';
 import Result from './result';
+import Key from './key';
 
 class calculator extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { total: null, next: null, operation: null };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(obj) {
+    this.setState({ total: obj.total, next: obj.next, operation: obj.operation });
   }
 
   render() {
     return (
       <div className="calc grid-container">
-        <Result className="item1 top" />
+        <Result className="item1 top" Result={this.state} />
 
-        <div className="item2">AC</div>
-        <div className="item3">+/-</div>
-        <div className="item4">%</div>
-        <div className="item5 right">/</div>
+        <Key css="item2" buttonName="AC" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item3" buttonName="+/-" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item4" buttonName="%" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item5 right" buttonName="÷" Result={this.state} handleClick={this.handleClick} />
 
-        <div className="item6">7</div>
-        <div className="item7">8</div>
-        <div className="item8">9</div>
-        <div className="item9 right">x</div>
+        <Key css="item6" buttonName="7" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item7" buttonName="8" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item8" buttonName="9" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item9 right" buttonName="x" Result={this.state} handleClick={this.handleClick} />
 
-        <div className="item10">4</div>
-        <div className="item11">5</div>
-        <div className="item12">6</div>
-        <div className="item13 right">-</div>
+        <Key css="item10" buttonName="4" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item11" buttonName="5" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item12" buttonName="6" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item13 right" buttonName="-" Result={this.state} handleClick={this.handleClick} />
 
-        <div className="item14">1</div>
-        <div className="item15">2</div>
-        <div className="item16">3</div>
-        <div className="item17 right">+</div>
+        <Key css="item14" buttonName="1" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item15" buttonName="2" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item16" buttonName="3" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item17 right" buttonName="+" Result={this.state} handleClick={this.handleClick} />
 
-        <div className="item18">0</div>
-        <div className="item19">.</div>
-        <div className="item20 right">=</div>
+        <Key css="item18" buttonName="0" Result={this.state} handleClick={this.handleClick} />
+        <Key css="item19" buttonName="." Result={this.state} handleClick={this.handleClick} />
+        <Key css="item20 right" buttonName="=" Result={this.state} handleClick={this.handleClick} />
       </div>
     );
   }

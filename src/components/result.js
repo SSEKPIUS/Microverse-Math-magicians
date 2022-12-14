@@ -6,7 +6,7 @@ class result extends React.Component {
   }
 
   render() {
-    return <div className="item1 top">0</div>;
+    return <div className="item1 top">{this.props.Result.total ?? '0'}</div>;
   }
 }
 export default result;
