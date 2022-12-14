@@ -39,7 +39,3 @@ class calculator extends React.Component {
 }
 
 export default calculator;
-
-/*
-
-*/
