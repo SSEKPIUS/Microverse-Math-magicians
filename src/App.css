@@ -25,6 +25,7 @@
   font-size: 30px;
   width: 2.5em;
   color: black;
+  cursor: pointer;
 }
 
 .calc.grid-container .top {
@@ -32,6 +33,7 @@
   text-align: right;
   width: auto !important;
   color: white !important;
+  cursor: default !important;
 }
 
 .calc.grid-container .right {
