@@ -87,7 +87,7 @@ React, virtual DOM, how React uses the virtual DOM. Git/GitHub flow, webpack, li
 
 > A link to our deployed project.
 
-- [Live Demo Link](https://ssekpius.github.io/Microverse-Math-magicians/dist)
+- [Live Demo Link](https://calculator-ssekpius.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
