@@ -19,11 +19,6 @@
       "react/react-in-jsx-scope": "off",
       "import/no-unresolved": "off",
       "no-shadow": "off",
-      "no-useless-constructor": "off",
-      "react/prefer-stateless-function": "off",
-      "react/no-unused-state": "off",
-      "react/prop-types": "off",
-      "react/destructuring-assignment": "off"
     },
     "ignorePatterns": [
       "dist/",
