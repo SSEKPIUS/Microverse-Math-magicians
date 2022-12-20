@@ -14,14 +14,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+  background-image: url(../public/bg.png);
+  background-position: center;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.header,
+.body,
+.footer {
+  width: 100%;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.205);
+  height: 5em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 0.95em;
+  padding: 1em 0;
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
+.container {
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selected {
+  text-decoration: underline !important;
+}
+
+p {
+  line-height: 1.7em;
+  font-size: 1.3em;
+  word-spacing: 0.2em;
+}
+
+.quote {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.quote p {
+  width: 80%;
+  font-size: 1.5em;
 }
