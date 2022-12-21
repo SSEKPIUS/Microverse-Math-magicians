@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Result from './result';
 import Key from './key';
+import './Calculator.css';
 
 const Calculator = () => {
   const [items, setItems] = useState({ total: null, next: null, operation: null });
