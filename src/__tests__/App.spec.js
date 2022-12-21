@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import Enzyme, { shallow, render, mount } from 'enzyme';
+import Enzyme, { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import Adapter from 'enzyme-adapter-react-16';
 
@@ -11,7 +10,6 @@ import App from '../App';
 import Error from '../components/Error';
 import Home from '../components/Home';
 import Key from '../components/key';
-import Nav from '../components/Nav';
 import Quote from '../components/Quote';
 
 Enzyme.configure({ adapter: new Adapter() });
