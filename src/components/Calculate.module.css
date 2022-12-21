@@ -1,0 +1,20 @@
+.calculator {
+  display: flex;
+  flex-direction: row;
+}
+
+.calculator > div:first-child {
+    flex-basis: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 10em;
+    font-size: large;
+}
+
+.calculator > div:nth-child(2) {
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}

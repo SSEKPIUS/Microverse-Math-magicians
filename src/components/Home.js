@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <>
-    <h2>Welcome to our page!</h2>
+    <h2 style={{ marginTop: '4em', marginBottom: '3em' }}>Welcome to our page!</h2>
     <p>
       Labore lorem ipsum gubergren ipsum vero no sed amet ipsum dolor. Vero aliquyam
       tempor diam sit accusam. Voluptua ea sit et et justo tempor magna.

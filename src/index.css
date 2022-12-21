@@ -47,6 +47,7 @@ body {
 
 .selected {
   text-decoration: underline !important;
+  font-weight: 900;
 }
 
 p {
@@ -67,4 +68,11 @@ p {
 .quote p {
   width: 80%;
   font-size: 1.5em;
+}
+
+.error {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
