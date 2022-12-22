@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Math Magicians: tests React components AP DOM Snapshot 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <div
+      className="container"
+    >
+      <nav>
+        <h1>
+          math magicians
+        </h1>
+        <ul>
+          <li
+            className="selected"
+          >
+            <a
+              href="/"
+              onClick={[Function]}
+            >
+              home
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              href="/calculator"
+              onClick={[Function]}
+            >
+              calculator
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              href="/quote"
+              onClick={[Function]}
+            >
+              quote
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>,
+  <div
+    className="body"
+  >
+    <div
+      className="container"
+    >
+      <h2
+        style={
+          Object {
+            "marginBottom": "3em",
+            "marginTop": "4em",
+          }
+        }
+      >
+        Welcome to our page!
+      </h2>
+      <p>
+        Labore lorem ipsum gubergren ipsum vero no sed amet ipsum dolor. Vero aliquyam tempor diam sit accusam. Voluptua ea sit et et justo tempor magna. Ipsum et vero clita invidunt sed diam tempor sit, lorem est sit no et elitr duo consetetur ipsum dolores. Eos et duo kasd kasd clita ipsum. Est ipsum no dolore amet. Et eos dolor sit diam sed eos lorem no, amet tempor ea consetetur clita amet at vero, dolores amet gubergren rebum duo, et takimata nonumy justo et accusam consetetur. Elitr est invidunt dolor et labore magna aliquyam dolor. Eos lorem sit et sed est. Aliquyam amet et duo magna duo sit, vero ipsum ipsum lorem elitr sit et sed, erat sit erat vero gubergren labore. Labore dolore diam est accusam. Erat consetetur tempor lorem sanctus sit, et diam sea ut dolor dolor, dolor dolor amet erat ea est. Accusam ut sed takimata
+      </p>
+      <p>
+        Nun versuch faßt zu euch die kommt blick beifall. Glück lauf nun schwebet einer stunden, und gedränge beifall an gut. Bilder in und kommt im des sich der drängt. Ihr halbverklungnen entwöhntes mit lauf mein freundschaft trüben weich kommt, irren äolsharfe gleich lied erschüttert wahn mich. Das jenem ihr jugendlich geisterreich und alten der wiederholt. Zerstoben tränen manche der lied, zerstoben euch sie mit die, die des nennt die macht gezeigt die liebe was welt. Sage wahn ach mild irren. Gesänge meinem irren euch und sich die und im. Gut äolsharfe mein wenn ertönt mit die. Ich lied faßt noch.
+      </p>
+    </div>
+  </div>,
+  <div
+    className="footer"
+  >
+    <div
+      className="container"
+    >
+      <span>
+        Microverse Math magicians: full website @2022
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Math Magicians: tests React components Error renders correctly enzyme 1`] = `
+<div
+  className="error"
+>
+  <span>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      Error! 
+    </span>
+    Page not Found
+  </span>
+</div>
+`;
+
+exports[`Math Magicians: tests React components Home renders correctly enzyme 1`] = `
+Array [
+  <h2
+    style={
+      Object {
+        "marginBottom": "3em",
+        "marginTop": "4em",
+      }
+    }
+  >
+    Welcome to our page!
+  </h2>,
+  <p>
+    Labore lorem ipsum gubergren ipsum vero no sed amet ipsum dolor. Vero aliquyam tempor diam sit accusam. Voluptua ea sit et et justo tempor magna. Ipsum et vero clita invidunt sed diam tempor sit, lorem est sit no et elitr duo consetetur ipsum dolores. Eos et duo kasd kasd clita ipsum. Est ipsum no dolore amet. Et eos dolor sit diam sed eos lorem no, amet tempor ea consetetur clita amet at vero, dolores amet gubergren rebum duo, et takimata nonumy justo et accusam consetetur. Elitr est invidunt dolor et labore magna aliquyam dolor. Eos lorem sit et sed est. Aliquyam amet et duo magna duo sit, vero ipsum ipsum lorem elitr sit et sed, erat sit erat vero gubergren labore. Labore dolore diam est accusam. Erat consetetur tempor lorem sanctus sit, et diam sea ut dolor dolor, dolor dolor amet erat ea est. Accusam ut sed takimata
+  </p>,
+  <p>
+    Nun versuch faßt zu euch die kommt blick beifall. Glück lauf nun schwebet einer stunden, und gedränge beifall an gut. Bilder in und kommt im des sich der drängt. Ihr halbverklungnen entwöhntes mit lauf mein freundschaft trüben weich kommt, irren äolsharfe gleich lied erschüttert wahn mich. Das jenem ihr jugendlich geisterreich und alten der wiederholt. Zerstoben tränen manche der lied, zerstoben euch sie mit die, die des nennt die macht gezeigt die liebe was welt. Sage wahn ach mild irren. Gesänge meinem irren euch und sich die und im. Gut äolsharfe mein wenn ertönt mit die. Ich lied faßt noch.
+  </p>,
+]
+`;
+
+exports[`Math Magicians: tests React components Key renders correctly enzyme 1`] = `
+<div
+  aria-hidden="true"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Math Magicians: tests React components Quote renders correctly enzyme 1`] = `
+<div
+  className="quote"
+>
+  <p>
+    Mathematics is not about numbers, equations, computations, or algprithms. it is about understanding.  - william Paul Thurstan.
+  </p>
+</div>
+`;
