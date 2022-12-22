@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Calculate from './components/Calculate';
 import Home from './components/Home';
 import Quote from './components/Quote';
@@ -7,7 +7,7 @@ import Error from './components/Error';
 import Nav from './components/Nav';
 
 const App = () => (
-  <>
+  <BrowserRouter>
     <div className="header">
       <div className="container">
         <Nav />
@@ -28,6 +28,6 @@ const App = () => (
         <span>Microverse Math magicians: full website @2022</span>
       </div>
     </div>
-  </>
+  </BrowserRouter>
 );
 export default App;

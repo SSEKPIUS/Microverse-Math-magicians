@@ -1,9 +1,5 @@
 import React from 'react';
-
-import Enzyme, { shallow } from 'enzyme';
-import toJson from 'enzyme-to-json';
-import Adapter from 'enzyme-adapter-react-16';
-
+import renderer from 'react-test-renderer';
 import calculate from '../logic/calculate';
 import operate from '../logic/operate';
 import App from '../App';
@@ -12,36 +8,31 @@ import Home from '../components/Home';
 import Key from '../components/key';
 import Quote from '../components/Quote';
 
-Enzyme.configure({ adapter: new Adapter() });
-beforeEach(() => {
-  jest.resetAllMocks();
-});
-
 describe('Math Magicians: tests', () => {
   describe('React components', () => {
-    test('AP renders correctly enzyme', () => {
-      const wrapper = shallow(<App />);
-      expect(toJson(wrapper)).toMatchSnapshot();
+    test('AP DOM Snapshot', () => {
+      const domTree = renderer.create(<App />).toJSON();
+      expect(domTree).toMatchSnapshot();
     });
 
     test('Error renders correctly enzyme', () => {
-      const wrapper = shallow(<Error />);
-      expect(toJson(wrapper)).toMatchSnapshot();
+      const domTree = renderer.create(<Error />).toJSON();
+      expect(domTree).toMatchSnapshot();
     });
 
     test('Home renders correctly enzyme', () => {
-      const wrapper = shallow(<Home />);
-      expect(toJson(wrapper)).toMatchSnapshot();
+      const domTree = renderer.create(<Home />).toJSON();
+      expect(domTree).toMatchSnapshot();
     });
 
     test('Key renders correctly enzyme', () => {
-      const wrapper = shallow(<Key />);
-      expect(toJson(wrapper)).toMatchSnapshot();
+      const domTree = renderer.create(<Key />).toJSON();
+      expect(domTree).toMatchSnapshot();
     });
 
     test('Quote renders correctly enzyme', () => {
-      const wrapper = shallow(<Quote />);
-      expect(toJson(wrapper)).toMatchSnapshot();
+      const domTree = renderer.create(<Quote />).toJSON();
+      expect(domTree).toMatchSnapshot();
     });
   });
 
